@@ -1,0 +1,27 @@
+{
+  "name": "netease-photo-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoyer2010/netease-photo-crawler.git"
+  },
+  "author": "shoyer@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoyer2010/netease-photo-crawler/issues"
+  },
+  "homepage": "https://github.com/shoyer2010/netease-photo-crawler#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
